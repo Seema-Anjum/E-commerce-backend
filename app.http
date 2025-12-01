@@ -1,0 +1,30 @@
+ ### 
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Seema",
+  "email": "seema@example.com",
+  "password": "123456"
+}
+
+### 
+GET http://localhost:5000/api/products
+
+### 
+
+POST http://localhost:5000/api/products/create-product
+Content-Type: application/json
+
+{
+  "name": "Classic White T-Shirt",
+  "description": "Soft cotton tee with a relaxed fit.",
+  "price": 499,
+  "category": "T-Shirts",
+  "imageUrl": "/images/white-tshirt.jpg",
+  "sizes": ["S", "M", "L", "XL"],
+  "stock": 50
+}
+
+### 
+GET http://localhost:5000/images/henley.jpg
