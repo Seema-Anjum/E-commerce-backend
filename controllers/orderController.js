@@ -1,5 +1,5 @@
 const User = require("../models/User.js");
-const sendEmail = require("../utils/sendEmail.js");
+const sendEmail = require("../utils/SendEmail.js");
 const Cart = require("../models/Cart.js");
 const Order = require("../models/Order.js");
 
